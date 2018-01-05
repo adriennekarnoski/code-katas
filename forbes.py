@@ -26,8 +26,5 @@ def forbes_function():
             youngest['age'] = person['age']
             youngest['net_worth'] = person['net_worth (USD)']
             youngest['industry'] = person['source']
-    return oldest, youngest
+    return [oldest, youngest]
 
-
-if __name__ == "__main__":
-    forbes_function()
